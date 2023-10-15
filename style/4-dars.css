@@ -1,0 +1,360 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Manrope', sans-serif;
+}
+ul {
+    list-style: none;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-left: 165px;
+    padding-right: 165px;
+    padding-bottom: 159px;
+    background: #080C20;
+}
+.img {
+    padding-top: 81px;
+}
+.headeer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 96.81px;
+    padding-top: 71px;
+    margin-bottom: 202.5px;
+}
+.headeer h1 {
+    width: 530px;
+    color: #FFF;
+text-align: center;
+font-size: 48px;
+font-style: normal;
+font-weight: 800;
+line-height: 56px; /* 116.667% */
+margin-bottom: 24px;
+}
+.headeer span {
+    color: #3EE9E5;
+font-size: 48px;
+font-style: normal;
+font-weight: 800;
+line-height: 56px;
+}
+.headeer p {
+    width: 540px;
+    color: #777F98;
+text-align: center;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: 25px; /* 166.667% */
+margin-bottom: 64px;
+}
+
+.hero {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 202px;
+}
+.hero h3 {
+    color: #FFF;
+font-size: 18px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin-bottom: 23px;
+}
+.hero p {
+    width: 255px;
+    color: #777F98;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: 25px; /* 166.667% */
+}
+.hero :nth-child(2) {
+    margin-top: 48px;
+}
+.hero :nth-child(4) {
+    margin-top: 48px;
+}
+.plans h2 {
+    color: #FFF;
+text-align: center;
+font-size: 32px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin-bottom: 24px;
+}
+.plans p {
+    width: 540px;
+    color: #777F98;
+text-align: center;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: 25px; /* 166.667% */
+margin-left: 285px;
+}
+
+.cards {
+    display: flex;
+    margin-top: 105px;
+    gap: 30px;
+}
+
+.box1 {
+    margin-top: 12px;
+    position: relative;
+    margin-left: 95px;
+    width: 445px;
+height: 425px;
+border-radius: 8px;
+background: #093F68;
+padding: 49px 38px 48px 38px;
+}
+.imgg {
+    position: absolute;
+    left: 38px;
+    top: -23px;
+}
+.box1 h5 {
+    color: #FFF;
+font-size: 18px;
+font-style: normal;
+font-weight: 800;
+line-height: 25px; /* 138.889% */
+margin-bottom: 19px;
+}
+.box1 p {
+    width: 369px;
+    color: #FFF;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: 25px; /* 166.667% */
+opacity: 0.5973;
+margin: 0;
+text-align: start;
+margin-bottom: 24px;
+}
+.box1 h3 {
+    color: #FFF;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin-bottom: 19px;
+}
+.box1 ul li {
+    display: flex;
+    align-items: center;
+    gap: 15.32px;
+
+    color: #FFF;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: 25px; /* 166.667% */
+margin-bottom: 12px;
+}
+
+.box2 {
+    position: relative;
+    width: 445px;
+height: 449px;
+flex-shrink: 0;
+border-radius: 8px;
+background: #3EE9E5;
+padding: 61px 38px 60px 38px;
+}
+
+.box2 .imggg {
+    position: absolute;
+    left: 37px;
+    top: -33px;
+}
+.box2 h5 {
+    color: #080C20;
+font-style: normal;
+font-weight: 800;
+line-height: 25px; /* 138.889% */
+margin-bottom: 19px;
+}
+.box2 p {
+    width: 369px;
+    text-align: start;
+    color: #080C20;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: 25px; /* 166.667% */
+margin: 0;
+opacity: 0.6;
+margin-bottom: 24px;
+}
+.box2 h3 {
+    display: flex;
+    align-items: center;
+    gap: 7.5px;
+    color: #080C20;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin-bottom: 19px;
+}
+.box2 span {
+    color: #080C20;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: 25px; /* 166.667% */
+opacity: 0.6;
+}
+.box2 ul li {
+    display: flex;
+    align-items: center;
+    gap: 15.32px;
+
+    color: #080C20;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: 25px; /* 166.667% */
+margin-bottom: 12px;
+}
+.login {
+    margin-top: 203px;
+    background: url(end_backgraund.png);
+}
+.login h2 {
+    color: #FFF;
+text-align: center;
+font-size: 32px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin-bottom: 42px;
+}
+.email {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+input {
+    width: 320px;
+height: 48px;
+flex-shrink: 0;
+    padding-left: 18px; 
+    border: none;
+    outline: none;
+    border-radius: 24px;
+background: #093F68;
+
+}
+input::placeholder {
+    color: #FFF;
+font-size: 15px;
+font-style: normal;
+font-weight: 800;
+line-height: 25px; /* 166.667% */
+opacity: 0.4;
+}
+button {
+    width: 140px;
+height: 48px;
+flex-shrink: 0;
+    border-radius: 24px;
+background: #3EE9E5;
+
+color: #093F68;
+text-align: center;
+font-size: 15px;
+font-style: normal;
+font-weight: 800;
+line-height: 25px; /* 166.667% */
+}
+button:hover {
+    background-color: #080C20;
+    border-radius: 24px;
+border: 2px solid #3EE9E5;
+cursor: pointer;
+
+color: #FFF;
+text-align: center;
+font-size: 15px;
+font-style: normal;
+font-weight: 800;
+line-height: 25px; /* 166.667% */
+}
+
+@media screen and (max-width: 409px) 
+/* redmi note 7 409px */
+{ 
+    .container {
+        padding: 40px 24px 160px 24px;
+    }
+    .headeer h1 {
+        width: 327px;
+    }
+    .headeer p {
+        width: 347px;
+    }
+    .hero {
+        display: flex;
+        flex-direction: column;
+    }
+    .card1 {
+        text-align: center;
+    }
+    .card1 p {
+        width: 347px;
+    }
+    .plans p {
+        margin: 0;
+        width: 347px;
+    }
+    .box1 {
+        margin: 0;
+        width: 347px;
+        padding-left: 30px;
+        padding-right: 29px;
+    }
+    .box1 p {
+        width: 288px;
+    }
+    .cards {
+        display: flex;
+        flex-direction: column;
+    }
+    .box2 {
+        width: 347px;
+        padding: 61px 29px 32px 30px;
+    }
+    .box2 p {
+        width: 288px;
+    }
+    .login h2 {
+        width: 328px;
+        text-align: center;
+    }
+    .email {
+        display: flex;
+        flex-direction: column;
+    }
+    .input {
+        width: 347px;
+    }
+    .btn {
+        width: 327px;
+    }
+
+}
